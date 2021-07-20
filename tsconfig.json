@@ -1,15 +1,15 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "rootDir": "src",
-        "outDir": "dist",
-        "target": "es6",
-        "moduleResolution": "node",
-        "baseUrl": ".",
-        "sourceMap": true,
-        "noImplicitAny": false,
-        "paths": { "*": ["node_modules/*"] }
-    },
-    "include": ["src/**/*"]
+  "compilerOptions": {                         
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017", 
+    "moduleResolution": "node",
+    "outDir": "dist", 
+    "baseUrl": ".",                   
+    "sourceMap": true,                     
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+     "paths": { "*": ["node_modules/*"] } 
+  },
+  "include": ["src/**/*"]
 }

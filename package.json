@@ -11,7 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node-fetch": "^2.5.10",
+    "axios": "^0.21.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.30",
+    "cheerio": "^1.0.0-rc.10"
   }
 }
