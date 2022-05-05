@@ -55,7 +55,7 @@ export class asked{
         params.append('makarong_bat', '-1');
         params.append('show_user', '0');
         if(this.isUser(id)){
-            fetch('https://asked.kr/query.php?query=0', {
+            fetch('https://asked.kr/query.php?query=100', {
                     method: 'POST',
                     body: params
             });
@@ -72,7 +72,7 @@ export class asked{
         params.append('makarong_bat', '-1');
         params.append('show_user', '0');
         if(await this.isUser(id)){
-            await fetch('https://asked.kr/query.php?query=0', {
+            await fetch('https://asked.kr/query.php?query=100', {
                 method: 'POST',
                 body: params
             });
@@ -90,7 +90,7 @@ export class asked{
         params.append('makarong_bat', '-1');
         params.append('show_user', '1');
         if(this.isUser(id)){
-            fetch('https://asked.kr/query.php?query=0', {
+            fetch('https://asked.kr/query.php?query=100', {
                 method: 'POST',
                 body: params,
                 headers: {
@@ -110,7 +110,7 @@ export class asked{
         params.append('makarong_bat', '-1');
         params.append('show_user', '1');
         if(await this.isUser(id)){
-            await fetch('https://asked.kr/query.php?query=0', {
+            await fetch('https://asked.kr/query.php?query=100', {
                 method: 'POST',
                 body: params,
                 headers: {
